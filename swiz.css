@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(226, 226, 226);
+    background: linear-gradient(180deg, rgba(15, 44, 121, 1)50%, rgba(224, 224, 224, 1) 100%);
+}
+video{
+  margin: 0px;
+  padding: 0px;
+  box-shadow: 1px -2px 20px rgb(34, 34, 34);
+  width: 100%;
+
+
+}
+.swiztop{
+  margin: 0px;
+  margin-top: 0px;
+  justify-content: center;
+  text-align: center;
+}
+h1
+{
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+    font-family: 'Bebas Neue' ,sans-serif;
+    transform: translate(-50%,50%);
+    top: 15%;
+    left: 50%;
+    font-size: 6rem;
+    color: rgb(249, 249, 249);
+    text-shadow: 3px 4px 20px rgb(193, 205, 246);
+
+}
+.scrolldown{
+
+
+  width: 30px;
+  height: 50px;
+  border-radius: 20px;
+  position: absolute;
+  transform: translate(-50%,50%);
+  left: 50%;
+  bottom: 10%;
+
+
+}
+.scrolldown::before,.scrolldown::after{
+    content:'';
+    position: absolute;
+    top: 3%;
+        left: 25%;
+    border: 3px solid rgb(255, 255, 255) ;
+    width: 13px;
+    height: 13px;
+    transform: translate(-50,60%);
+      transform: rotate(45deg);
+    border-left: transparent;
+    border-top: transparent;
+    animation: scrolldown 1s ease-in-out infinite;
+}
+.scrolldown::after{
+top: 30%;
+}
+@keyframes scrolldown {
+  0%{
+    opacity: 0;
+
+  }
+  30%{
+    opacity: 1;
+  }
+  60%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+
+    top: 60%;
+  }
+}
+
+h2{
+  margin: 0px;
+  position: absolute;
+  transform: translate(-50%,50%);
+  left: 50%;
+  margin-top: 3rem;
+  font-size: 40px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: lighter;
+  color: rgb(245, 245, 245);
+
+}
+.zurichmain{
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+}
+h3
+{
+  margin: 0px;
+
+  font-family: 'Bebas Neue', sans-serif;
+  color: white;
+  font-size: 7rem;
+  text-decoration: underline;
+
+}
+.zurichmain img
+{
+  margin: 0px;
+  margin-left: 30px;
+  margin-top: 15rem;
+
+  min-width: 80vh;
+
+
+
+}
+
+.zurichtext{
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  margin: 0px;
+  margin-top:12rem;
+  padding: 50px;
+  text-align: justify;
+  color: white;
+  font-family: 'montserrat',sans-serif;
+
+}
+.intermain{
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  margin-top: 100px;
+}
+.interimage{
+  margin: 0px;
+  margin-left: 30px;
+
+}
+.intertext{
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  margin: 0px;
+  padding: 30px;
+  text-align: justify;
+  color: white;
+  font-family: 'montserrat',sans-serif;
+  letter-spacing: 2px;
+}

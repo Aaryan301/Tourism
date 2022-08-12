@@ -1,0 +1,259 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+html{
+  scroll-behavior: smooth;
+}
+body{
+
+  margin: 0px;
+  padding: 0px;
+}
+h2
+{  color: white;
+  font-family: 'Bebas Neue', sans-serif;
+  position: absolute;
+    font-size: 6rem;
+    transform: translate(-50%,50%);
+    left:50%;
+
+}
+
+.container
+{ margin: 0px;
+  padding: 0px;
+  max-width: 100%;
+justify-content: center;
+  align-items: center;
+
+}
+.bg1
+{
+  margin: 0px;
+   padding: 0px;
+
+  max-width: 100%;
+
+  z-index: 3;
+}
+
+.start{
+  margin: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content{
+
+  margin: 0px;
+   padding: 0px;
+  background-color: rgb(178, 184, 214);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1)10%, rgba(82, 181, 199, 1) 100%);
+    max-height: 100%;
+    max-width: 100%;
+
+
+}
+.text{
+
+  margin: 0px;
+  font-family: sans-serif;
+  color: white;
+  padding: 5rem 10rem;
+  font-size: 19px;
+  text-align: center;
+
+
+}
+
+
+
+
+.navmain{
+background-color: transparent;
+  position: absolute;
+  margin:0px;
+  min-width: 100vw;
+  margin-top: 0.5rem;
+
+
+}
+.nav_right li{
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  list-style: none;
+  float: right;
+  color: white;
+  margin: 0px;
+  padding: 30px 30px;
+
+}
+ul{
+  margin: 0px;
+  margin-right: 30px
+}
+
+.logo{
+  position:absolute;
+  padding: 6px;
+max-height: 100%;
+min-width: 9%;
+}
+
+.nav_right li:hover
+{
+  color: grey;
+}
+
+.swizsection{
+
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h5{
+
+position: absolute;
+color: white;
+font-family: 'Bebas Neue',sans-serif;
+font-weight: lighter;
+font-size: 6rem;
+
+
+}
+
+h5:hover{
+  opacity: 0.5;
+}
+
+.bali{
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h6{
+position: absolute;
+color: white;
+font-family: 'Bebas Neue',sans-serif;
+font-weight: lighter;
+font-size: 6rem;
+}
+
+
+
+
+h6:hover{
+  opacity: 0.5;
+}
+
+
+.boxes {
+
+display: flex;
+justify-content: space-around;
+
+}
+
+
+h3{
+text-align: center;
+margin: 0px;
+padding: 0px;
+color:rgb(15, 15, 15);
+font-family: 'montserrat',sans-serif;
+font-weight: lighter;
+font-size: 2.5rem;
+margin-top: 3rem;
+padding-bottom: 2rem;
+
+
+}
+@media  screen and (max-width: 900px)  {
+h3{
+    padding-bottom: 0 rem;
+
+}
+}
+/*.scrolldown{
+  border: 3.5px solid white;
+  width: 30px;
+  height: 50px;
+  border-radius: 20px;
+  position: absolute;
+  transform: translate(-50%,50%);
+  left: 50%;
+  bottom: 60px;
+  cursor: pointer;
+}
+.scrolldown::before,.scrolldown::after{
+    content:'';
+    position: absolute;
+    top: 3%;
+        left: 25%;
+    border: 3px solid white ;
+    width: 13px;
+    height: 13px;
+    transform: translate(-50,60%);
+      transform: rotate(45deg);
+    border-left: transparent;
+    border-top: transparent;
+    animation: scrolldown 1s ease-in-out infinite;
+}
+.scrolldown::after{
+  top: 30%;
+
+}
+@keyframes scrolldown {
+  0%{
+    opacity: 0;
+
+  }
+  30%{
+    opacity: 1;
+  }
+  60%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+
+    top: 60%;
+  }
+
+}*/
+video {
+  margin: 0px;
+  padding: 0px;
+  max-width: 100%;
+
+}
+.france {
+  margin: 0px;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h7{
+position: absolute;
+margin: 0px;
+color:rgb(249, 143, 188);
+font-family: 'Bebas Neue',sans-serif;
+font-weight: lighter;
+font-size: 6rem;
+}
+
+h7:hover{
+opacity: 0.5;
+}
+
+.swizsection{
+  margin: 0px;
+  padding: 0px;
+width: 100%;
+}
